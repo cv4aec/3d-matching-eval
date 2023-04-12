@@ -98,7 +98,7 @@ git clone git@github.com:cv4aec/3d-matching-eval.git
 cd 3d-matching-eval
 
 # Build Docker image.
-docker build -t cvpr-2023-matching .
+docker build -t 3d-matching-eval .
 
 # Run image and evaluate.
 # NOTE: Put all your JSON data in ./data/.
