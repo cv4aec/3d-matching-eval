@@ -1,0 +1,6 @@
+# Data & assets
+data
+augmented
+
+# VSCode
+*.code-workspace

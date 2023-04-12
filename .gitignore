@@ -1,0 +1,12 @@
+# Visual Studio
+.vs
+.vscode
+
+# Python
+__pycache__
+
+# Data & Build
+build
+data/**
+docs
+reference_test*

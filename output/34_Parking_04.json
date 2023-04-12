@@ -1,0 +1,151 @@
+{
+    "precision": {
+        "0.05": {
+            "average": 1.0,
+            "doors": 1.0,
+            "walls": 1.0
+        },
+        "0.1": {
+            "average": 1.0,
+            "doors": 1.0,
+            "walls": 1.0
+        },
+        "0.2": {
+            "average": 1.0,
+            "doors": 1.0,
+            "walls": 1.0
+        }
+    },
+    "recall": {
+        "0.05": {
+            "average": 1.0,
+            "doors": 1.0,
+            "walls": 1.0
+        },
+        "0.1": {
+            "average": 1.0,
+            "doors": 1.0,
+            "walls": 1.0
+        },
+        "0.2": {
+            "average": 1.0,
+            "doors": 1.0,
+            "walls": 1.0
+        }
+    },
+    "f1": {
+        "0.05": {
+            "average": 1.0,
+            "doors": 1.0,
+            "walls": 1.0
+        },
+        "0.1": {
+            "average": 1.0,
+            "doors": 1.0,
+            "walls": 1.0
+        },
+        "0.2": {
+            "average": 1.0,
+            "doors": 1.0,
+            "walls": 1.0
+        }
+    },
+    "iou": {
+        "average": 1.0,
+        "doors": 1.0,
+        "walls": 1.0
+    },
+    "floors": {
+        "F1": {
+            "scale": null,
+            "rotation": null,
+            "translation": null,
+            "metrics": {
+                "doors": {
+                    "total": 40,
+                    "predicted": 40,
+                    "thresholds": {
+                        "0.05": {
+                            "matched": 40,
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "0.1": {
+                            "matched": 40,
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "0.2": {
+                            "matched": 40,
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        }
+                    }
+                },
+                "walls": {
+                    "total": 72,
+                    "predicted": 72,
+                    "thresholds": {
+                        "0.05": {
+                            "matched": 72,
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "0.1": {
+                            "matched": 72,
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        },
+                        "0.2": {
+                            "matched": 72,
+                            "precision": 1.0,
+                            "recall": 1.0,
+                            "f1": 1.0
+                        }
+                    }
+                }
+            },
+            "ious": {
+                "doors": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "walls": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "general": {
+                    "doors": {
+                        "min": 1.0,
+                        "max": 1.0,
+                        "mean": 1.0,
+                        "median": 1.0,
+                        "std": 0.0
+                    },
+                    "walls": {
+                        "min": 1.0,
+                        "max": 1.0,
+                        "mean": 1.0,
+                        "median": 1.0,
+                        "std": 0.0
+                    }
+                }
+            }
+        }
+    }
+}
